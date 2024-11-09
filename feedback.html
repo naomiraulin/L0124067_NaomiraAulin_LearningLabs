@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        body {
+            background-color:cornsilk ;
+            font-family:'Segoe UI', 'Tahoma', 'sans-serif';
+            margin:auto;
+        }
+
+        h2 {
+            color: rgb(17, 18, 58);
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        h4 {
+            color: rgb(17, 18, 58);
+            margin-top: 20px;
+        }
+
+        .nav-container {
+            background-color: rgb(181, 185, 189);
+            text-align: center;
+            padding: 10px;
+        }
+
+        .nav-container a {
+            text-decoration:line;
+            color:rgb(17, 18, 58);
+            font-size: 20px;
+            padding: 12px;
+        }
+
+        .feedback-form {
+            width: 400px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .feedback-form label {
+            display: block;
+            margin-bottom: 5px;
+            color: rgb(17, 18, 58);;
+        }
+
+        .feedback-form input, .feedback-form textarea {
+            width: 95%;
+            padding: 12px;
+            margin-bottom: 5px;
+            border: 1px solid rgb(17, 18, 58);
+            border-radius: 8px;
+        }
+
+        .feedback-form button {
+            width: 102%;
+            padding: 8px;
+            background-color: rgb(181, 185, 189);
+            color: rgb(17, 18, 58);
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .feedback-form button:hover {
+            background-color: rgb(181, 185, 189);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 55px;
+            padding: 6px;
+            background-color: rgb(181, 185, 189);
+            color: rgb(17, 18, 58);
+            font-style: italic;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 align="center"> REKOMENDASI WISATA SOLO </h1>
+
+        <nav class="nav-container">
+            <a href="home.html">Home</a>
+            <a href="content.html">Content</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Feedback Form</h2>
+        <h4>
+            <div class="feedback-form">
+                <form action="#" method="post">
+    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="message">Feedback:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+        
+                    <button type="submit">Submit</button>
+    
+                </form>
+            </div>
+        </h4>
+    
+    </main>
+    
+    <footer>
+        <p>&copy; Learning Labs 2024 L0124067 Naomira Aulin Afnan Faiza</p>
+    </footer>
+</body>
+</html>
